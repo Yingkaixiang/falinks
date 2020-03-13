@@ -1,6 +1,6 @@
 {
   "name": "@falinks/vue-ui-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于 vue 搭建的 UI 组件库",
   "main": "./cjs/vue-ui-component.js",
   "scripts": {
@@ -79,7 +79,6 @@
     "webpack-merge": "^4.2.2",
     "webpack-node-externals": "^1.7.2"
   },
-  "dependencies": {},
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
