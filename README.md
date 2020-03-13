@@ -2,6 +2,8 @@
 
 一个用于管理团队工具链的 monorepo。
 
+![falinks](https://www.serebii.net/swordshield/pokemon/870.png)
+
 ## 命令行工具
 
 ```bash
