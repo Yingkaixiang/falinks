@@ -6,7 +6,7 @@ const download = require('download-git-repo');
 const chalk = require('chalk');
 const symbols = require('log-symbols');
 
-const packageJSON = require('../package.json');
+const packageJSON = require('./package.json');
 
 program.version(packageJSON.version, '-v, --version');
 
