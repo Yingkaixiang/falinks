@@ -1,0 +1,25 @@
+# MacOS
+.DS_Store
+
+# npm
+node_modules
+
+# build files
+/dist
+/cjs
+/lib
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# storybook
+.out
+
+# files
+build/qiniu.js
