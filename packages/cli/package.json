@@ -1,13 +1,17 @@
 {
-  "name": "@ying/cli",
+  "name": "@falinks/cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": "./index.js",
+  "author": "Yingkaixiang",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.1.1",
