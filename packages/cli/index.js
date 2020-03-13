@@ -13,7 +13,7 @@ program.version(packageJSON.version, '-v, --version');
 program.command('create <name>').action((name) => {
   const spinner = ora('脚手架模板下载中...');
   spinner.start();
-  // vue 组件库脚手架
+  // 安装 vue 组件库脚手架
   download('Yingkaixiang/vue-component-boilerplate', name, {}, (err) => {
     if (!err) {
       spinner.succeed();
