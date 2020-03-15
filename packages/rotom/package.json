@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@falinks/rotom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于 vue 搭建的 UI 组件库",
   "main": "./cjs/vue-ui-component.js",
   "scripts": {
