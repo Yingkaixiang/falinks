@@ -1,0 +1,31 @@
+{
+  "name": "@falinks/deploy-ghpages",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Yingkaixiang <rubykaikai@gmail.com>",
+  "homepage": "https://github.com/Yingkaixiang/falinks#readme",
+  "license": "ISC",
+  "bin": "./index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yingkaixiang/falinks.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Yingkaixiang/falinks/issues"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "shelljs": "^0.8.3",
+    "yargs": "^15.3.0"
+  }
+}

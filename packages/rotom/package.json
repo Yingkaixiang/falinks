@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@falinks/rotom",
   "version": "1.0.0",
   "description": "基于 vue 搭建的 UI 组件库",
