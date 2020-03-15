@@ -1,6 +1,6 @@
 # `@falinks/deploy-ghpages`
 
-一键部署 GitHub Page。脚本只会将 build 完的静态目录资源发布至当前 repo 的 gh-pages 分支，不会上传你的源代码。
+使用此脚本可以将你的 `master` 分支以及 `gh-pages` 分支进行分离。`master` 分支只存放你的源代码而 `gh-pages` 分支只存放项目构建后的静态资源文件。
 
 ## 如何使用
 
